@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>discordbot - 개인용 영수증 정리 봇</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.7; color: #222; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #555; }
+  a { color: #1a5fb4; }
+</style>
+</head>
+<body>
+<h1>discordbot</h1>
+<p><strong>개인용 영수증·지출 정리 봇</strong> / A personal receipt and expense bookkeeping bot</p>
+
+<h2>이 앱은 무엇인가요</h2>
+<p>discordbot은 개발자 한 사람이 자기 사업의 지출을 정리하려고 만든 개인용 도구입니다. 일반 사용자에게 공개하는 서비스가 아니며, 개발자 본인과 개발자가 직접 지정한 계정만 사용합니다. 사용자 계정 수는 100명보다 훨씬 적습니다.</p>
+<p>디스코드에 올린 영수증 사진, 휴대폰으로 받은 카드 결제 알림, 지정한 Gmail 라벨이 붙은 영수증 메일을 읽어서 사용자의 구글 시트(지출 장부)에 한 줄로 정리하고, 영수증 원본을 사용자의 구글 드라이브 폴더에 보관합니다.</p>
+
+<h2>사용하는 구글 데이터</h2>
+<ul>
+  <li><strong>Google Sheets</strong>: 사용자가 지정한 지출 장부 시트에 행을 추가하고 고칩니다.</li>
+  <li><strong>Google Drive</strong>: 영수증 원본 파일을 사용자가 지정한 폴더에 올립니다.</li>
+  <li><strong>Gmail</strong>: <code>영수증/수신</code> 라벨이 붙은 메일만 읽고, 처리한 뒤 라벨을 바꿉니다. 메일을 삭제하거나 보내지 않으며, 그 밖의 메일은 읽지 않습니다.</li>
+</ul>
+<p>자세한 내용은 <a href="privacy.html">개인정보처리방침</a>과 <a href="terms.html">이용약관</a>을 확인해 주세요.</p>
+
+<h2>English summary</h2>
+<p>discordbot is a personal, single-developer tool that turns receipts (photos posted to a private Discord channel, card payment notifications forwarded from the developer's phone, and receipt emails carrying a specific Gmail label) into rows in the developer's own Google Sheet, and stores the original files in the developer's own Google Drive folder. It is not offered to the general public. It reads and relabels only the Gmail messages that carry the <code>영수증/수신</code> label and never deletes or sends email. See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+
+<footer>
+  연락처 / Contact: <a href="mailto:magentify.kr@gmail.com">magentify.kr@gmail.com</a><br>
+  최종 수정 / Last updated: 2026-11-02
+</footer>
+</body>
+</html>
